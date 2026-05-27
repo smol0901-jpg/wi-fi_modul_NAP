@@ -9,7 +9,7 @@
 *.class
 *.pyc
 
-# Dependencies and build directories
+# Dependencies
 node_modules/
 venv/
 .venv/
@@ -21,7 +21,7 @@ build/
 target/
 .gradle/
 
-# Editor/IDE files
+# Editors/IDE
 .vscode/
 .idea/
 *.swp
@@ -31,14 +31,19 @@ target/
 # Logs
 *.log
 
-# Environment files
+# Environment
 .env
 .env.local
 *.env.*
 
-# System files
+# System
 .DS_Store
 Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
 
 # Compressed files
 *.zip
@@ -59,4 +64,8 @@ Thumbs.db
 *.Z
 *.lz
 *.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
 ```
